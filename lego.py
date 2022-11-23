@@ -36,4 +36,28 @@ if len(slas) > 0:
 
         print()
 else:
-    print("Produto indisponivel")
+    with open("stores.json", "r") as lego_stores_file:
+        lego_stores = json.load(lego_stores_file)
+        stores = []
+        for lego_store in lego_stores["stores"]:
+            payload = {"items":[{"id": item_id,"quantity": 1,"seller": 1}],"postalCode": "{}".format(lego_store["address"]["postalCode"]),"country": "BRA"}
+            lego_item_search = requests.post(BASE_URL+ITEM_SEARCH_URI, data=json.dumps(payload), headers={"Content-Type": "application/json"}).json()
+            slas = lego_item_search["logisticsInfo"][0]["slas"]
+
+            if len(slas) > 0:
+                for sla in slas:
+                    channel = sla["deliveryChannel"]
+                    if channel == "pickup-in-point":
+                        store = sla["pickupStoreInfo"]
+                        stores.append(store)
+
+        if len(stores) > 0:
+            stores = list({store["friendlyName"]:store for store in stores}.values())
+            for store in stores:
+                address = "{}, {} - {} - CEP: {} {}/{}".format(store["address"]["street"], store["address"]["number"], store["address"]["neighborhood"], store["address"]["postalCode"], store["address"]["city"], store["address"]["state"])
+                print("Disponivel para retirada na {}".format(store["friendlyName"]))
+                print("https://www.google.com/maps/place/{}".format(address.replace(" ", "+")))
+                print()
+
+        else:
+            print("Produto indisponivel")
