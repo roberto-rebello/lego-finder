@@ -1,0 +1,228 @@
+{
+    "stores": [
+        {
+            "name": "Lego Moema",
+            "address": {
+                "state": "SP",
+                "city": "São Paulo",
+                "neighborhood": "Moema",
+                "street": "Rua Gaivota",
+                "number": "1301",
+                "complement": "",
+                "postalCode": "04522033"
+            },
+            "phone": {
+                "area-code": "11",
+                "number": "981396845"
+            }
+        },
+        {
+            "name": "Lego Shopping Center Norte",
+            "address": {
+                "state": "SP",
+                "city": "São Paulo",
+                "neighborhood": "Vila Guilherme",
+                "street": "Avenida Otto Baumgart",
+                "number": "500",
+                "complement": "Loja 303A/311",
+                "postalCode": "02049900"
+            },
+            "phone": {
+                "area-code": "11",
+                "number": "930974000"
+            }
+        },
+        {
+            "name": "Lego Shopping Cidade Jardim",
+            "address": {
+                "state": "SP",
+                "city": "São Paulo",
+                "neighborhood": "Jardim Panorama",
+                "street": "Av. Magalhães de Castro",
+                "number": "12000",
+                "complement": "",
+                "postalCode": "05502001"
+            },
+            "phone": {
+                "area-code": "11",
+                "number": "955588056"
+            }
+        },
+        {
+            "name": "Lego Shopping Villa Lobos",
+            "address": {
+                "state": "SP",
+                "city": "São Paulo",
+                "neighborhood": "Alto de Pinheiros",
+                "street": "Av. das Nações Unidas",
+                "number": "4777",
+                "complement": "",
+                "postalCode": "05477000"
+            },
+            "phone": {
+                "area-code": "11",
+                "number": "996073528"
+            }
+        },
+        {
+            "name": "Lego Shopping Morumbi",
+            "address": {
+                "state": "SP",
+                "city": "São Paulo",
+                "neighborhood": "Jardim das Acácias",
+                "street": "Avenida  Roque Petroni Júnior",
+                "number": "1089",
+                "complement": "",
+                "postalCode": "04707900"
+            },
+            "phone": {
+                "area-code": "11",
+                "number": "941733352"
+            }
+        },
+        {
+            "name": "Lego Iguatemi Campinas",
+            "address": {
+                "state": "SP",
+                "city": "Campinas",
+                "neighborhood": "Vila Brandina",
+                "street": "Av.  Iguatemi",
+                "number": "777",
+                "complement": "",
+                "postalCode": "13092599"
+            },
+            "phone": {
+                "area-code": "19",
+                "number": "998574816"
+            }
+        },
+        {
+            "name": "Lego Shopping Leblon",
+            "address": {
+                "state": "RJ",
+                "city": "Rio de Janeiro",
+                "neighborhood": "Leblon",
+                "street": "Av. Afrânio de Melo Franco",
+                "number": "290",
+                "complement": "",
+                "postalCode": "22430060"
+            },
+            "phone": {
+                "area-code": "21",
+                "number": "990324541"
+            }
+        },
+        {
+            "name": "Lego Barra Shopping",
+            "address": {
+                "state": "RJ",
+                "city": "Rio de Janeiro",
+                "neighborhood": "Barra da Tijuca",
+                "street": "Avenida  das Américas",
+                "number": "4666",
+                "complement": "",
+                "postalCode": "22640102"
+            },
+            "phone": {
+                "area-code": "21",
+                "number": "995227256"
+            }
+        },
+        {
+            "name": "Lego Shopping Plaza Niterói",
+            "address": {
+                "state": "RJ",
+                "city": "Niterói",
+                "neighborhood": "Centro",
+                "street": "Rua Quinze de Novembro",
+                "number": "8",
+                "complement": "",
+                "postalCode": "24020125"
+            },
+            "phone": {
+                "area-code": "21",
+                "number": "986926052"
+            }
+        },
+        {
+            "name": "Lego BH Shopping",
+            "address": {
+                "state": "MG",
+                "city": "Belo Horizonte",
+                "neighborhood": "Belvedere",
+                "street": "BR-356",
+                "number": "3049",
+                "complement": "Loja 72",
+                "postalCode": "30320690"
+            },
+            "phone": {
+                "area-code": "31",
+                "number": "991422066"
+            }
+        },
+        {
+            "name": "Lego Shopping Rio Mar",
+            "address": {
+                "state": "PE",
+                "city": "Recife",
+                "neighborhood": "Pina",
+                "street": "Av. República do Líbano",
+                "number": "251",
+                "complement": "",
+                "postalCode": "51110160"
+            },
+            "phone": {
+                "area-code": "81",
+                "number": "999220096"
+            }
+        },
+        {
+            "name": "Lego Salvador Shopping",
+            "address": {
+                "state": "BA",
+                "city": "Salvador",
+                "neighborhood": "Caminho das Árvores",
+                "street": "Av. Tancredo Neves",
+                "number": "3133",
+                "complement": "",
+                "postalCode": "41820021"
+            },
+            "phone": {
+                "area-code": "71",
+                "number": "982245536"
+            }
+        },
+        {
+            "name": "Lego Shopping Pátio Batel",
+            "address": {
+                "state": "PR",
+                "city": "Curitiba",
+                "neighborhood": "Batel",
+                "street": "Av. do Batel",
+                "number": "1868",
+                "complement": "",
+                "postalCode": "80420090"
+            },
+            "phone": {
+                "area-code": "41",
+                "number": "991234654"
+            }
+        },
+        {
+            "name": "Lego Shopping Iguatemi Porto Alegre",
+            "address": {
+                "state": "RS",
+                "city": "Porto Alegre",
+                "neighborhood": "Passo d'Areia",
+                "street": "Av. João Wallig",
+                "number": "1800",
+                "complement": "",
+                "postalCode": "91340000"
+            },
+            "phone": {
+                "area-code": "51",
+                "number": "995303261"
+            }
+        }
+    ]
+}
